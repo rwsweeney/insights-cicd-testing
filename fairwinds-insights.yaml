@@ -1,8 +1,3 @@
-options:
-  organization: rachel-testing
-  hostname: https://staging.insights.fairwinds.com
-  baseBranch: main
-
 images:
   docker:
     - alpine:3.14.0
@@ -11,10 +6,6 @@ options:
   organization: rachel-testing
   hostname: https://staging.insights.fairwinds.com
   baseBranch: main
-
-images:
-  docker:
-    - alpine:3.14.0
 
 manifests:
   yaml:
