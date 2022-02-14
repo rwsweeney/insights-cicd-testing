@@ -1,5 +1,5 @@
 options:
-  organization: cicd-hands-on-lab
+  organization: rachel-testing
   hostname: https://staging.insights.fairwinds.com
   baseBranch: main
 
@@ -8,7 +8,7 @@ images:
     - alpine:3.14.0
 options:
   setExitCode: true
-  organization: cicd-hands-on-lab
+  organization: rachel-testing
   hostname: https://staging.insights.fairwinds.com
   baseBranch: main
 
