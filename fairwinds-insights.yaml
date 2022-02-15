@@ -1,6 +1,6 @@
 options:
   setExitCode: true
-  organization: acme-co
+  organization: rachel-testing
 
 images:
   docker:
