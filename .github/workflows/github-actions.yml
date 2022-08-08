@@ -13,6 +13,9 @@ jobs:
       FAIRWINDS_TOKEN: ${{ secrets.FAIRWINDS_TOKEN }}
     steps:
       - uses: actions/checkout@v2
+      - name: Fix issue with repository ownership
+        run: |
+          git config --global --add safe.directory /insights
       - name: Fairwinds Insights
         run: |
           curl -L https://insights.fairwinds.com/v0/insights-ci-2.0.0.sh > insights-ci.sh
