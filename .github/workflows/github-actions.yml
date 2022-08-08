@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Fairwinds Insights
         run: |
-          curl -L https://insights.fairwinds.com/v0/insights-ci-0.6.1.sh > insights-ci.sh
-          echo "1c032ad6a9e70e58eb05ccdfbe17015e71d0c1f741aeecdd7548d7a6501c8175 *insights-ci.sh" | shasum -a 256 --check
+          curl -L https://insights.fairwinds.com/v0/insights-ci-2.0.0.sh > insights-ci.sh
+          echo "0ee9fd3c580cd008e493568f05607ff32d8866fec53ecd08a0320f86de481317 *insights-ci.sh" | shasum -a 256 --check
           chmod +x insights-ci.sh
           ./insights-ci.sh
