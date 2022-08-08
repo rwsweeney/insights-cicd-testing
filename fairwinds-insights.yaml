@@ -1,7 +1,6 @@
 options:
   organization: rachel-testing
-
-  # You may need to set this to 'main'
+  hostname: https://insights.fairwinds.com
   baseBranch: main
 
 # These images will be scanned for vulnerabilities.
@@ -12,4 +11,5 @@ images:
 # These manifests will be scanned for configuration issues.
 manifests:
   yaml:
-    - deploy.yaml
+    - ./deploy.yaml
+    
