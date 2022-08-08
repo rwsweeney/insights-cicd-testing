@@ -4,9 +4,9 @@ options:
   baseBranch: main
 
 # These images will be scanned for vulnerabilities.
-images:
-  docker:
-    - nginx:1.18-alpine
+#images:
+#  docker:
+#    - nginx:1.18-alpine
 
 # These manifests will be scanned for configuration issues.
 manifests:
