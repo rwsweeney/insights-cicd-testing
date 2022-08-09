@@ -12,4 +12,7 @@ options:
 manifests:
   yaml:
     - ./deploy.yaml
+  helm:
+    - name: polaris
+      path: ./polaris/
     
