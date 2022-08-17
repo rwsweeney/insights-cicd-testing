@@ -15,4 +15,5 @@ manifests:
   helm:
     - name: polaris
       path: ./polaris/
-    
+      values:
+        dashboard.enable: false    
